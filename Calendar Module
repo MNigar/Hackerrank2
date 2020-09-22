@@ -1,0 +1,4 @@
+import datetime
+
+x=datetime.datetime.strptime(input(), '%m %d %Y')
+print(x.strftime('%A').upper())
